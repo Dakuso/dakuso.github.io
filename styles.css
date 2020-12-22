@@ -1,26 +1,54 @@
-color
-
-h1, p {
-  font-family: consolas;
-  border: 5px solid #73AD21;
-  margin: 0;
-  padding: 10px 0;
+:root {
+  --dusky: #52638b;
+  --aqua: #00e7e8;
+  --dark: #0e193b;
+  --lgrey: #aaaaaa;
+  --white: #fff;
+  --dblue: #172143;
+  --vlgrey: #dadada;
+  --red: #ff3b30;
+  --blackshadow: #000000;
+  --nicePink: #f9c2ff;
 }
 
 h1 {
-  border-bottom: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  font-family: consolas;
+  color: var(--white);
+  border: 5px solid var(--aqua);
+  flex: 1;
+  width: 100vh;
+  height: 100%;
 }
 
-p {
-  border-top: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+h2 {
+  font-family: consolas;
+  border: 5px solid var(--red);
+  flex: 0.5;
+  width: 100vh;
+  height: 100%;
+}
+
+#banner {
+  flex: 0.5;
+  object-fit: cover;
+  border: 5px solid var(--nicePink);
+  width: 100vh;
+  height: 100%;
+}
+
+.container-fluid {
+  border: 5px solid var(--lgrey);
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  height: 100%;
+  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .main {
-  background: url('https://wallpapercave.com/wp/2qTUpIl.jpg') repeat scroll center center / cover;
-  width: 100vh;
+  background: url('https://mtec.ethz.ch/continuing-education/_jcr_content/image.imageformat.carousel.1690519963.jpg') repeat scroll center center / cover;
+  width: 100%;
   height: 100vh;
 }
