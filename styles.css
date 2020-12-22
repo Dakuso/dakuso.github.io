@@ -1,0 +1,26 @@
+color
+
+h1, p {
+  font-family: consolas;
+  border: 5px solid #73AD21;
+  margin: 0;
+  padding: 10px 0;
+}
+
+h1 {
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+p {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.main {
+  background: url('https://wallpapercave.com/wp/2qTUpIl.jpg') repeat scroll center center / cover;
+  width: 100vh;
+  height: 100vh;
+}
