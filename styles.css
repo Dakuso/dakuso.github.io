@@ -9,6 +9,7 @@
   --red: #ff3b30;
   --blackshadow: #000000;
   --nicePink: #f9c2ff;
+  --size: 5;
 }
 
 h1 {
@@ -22,7 +23,7 @@ h1 {
 
 h2 {
   font-family: consolas;
-  /*border: 5px solid var(--red);*/
+  border: 5px solid var(--red);
   flex: 0.5;
   width: 100vh;
   height: 100%;
@@ -54,6 +55,7 @@ h2 {
 }
 
 .typewriter h2 {
+  text-align: left;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typewriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -107,7 +109,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   font-family: "Source Sans Pro", arial, sans-serif;
   font-weight: 300;
   color: #333;
@@ -127,9 +129,9 @@ body * {
 .timeline:before {
   content: "";
   position: absolute;
-  top: 0px;
+  top: 0;
   left: calc(33% + 15px);
-  bottom: 0px;
+  bottom: 0;
   width: 4px;
   background: #ddd;
 }
@@ -160,7 +162,7 @@ body * {
   background-color: #fff;
   border-radius: 100%;
   top: 15%;
-  right: -8px;
+  right: -4px;
   z-index: 99;
 }
 .entry .title h3 {

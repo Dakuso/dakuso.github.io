@@ -1,20 +1,19 @@
 	<!doctype html>
-<html>
+<html lang="en">
 <head>
 	<title>Some Title</title>
 	<meta name="description" content="the description">
 	<meta name="author" content="the content">
-	<link rel="stylesheet" href="styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css?<?php echo time(); ?>"> <!-- ?<?php echo time(); ?> for reloading not from cache -->
+<!--	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">-->
 </head>
 <body>
 	<div id="body" class="main">
-		<h3> Hello </h3>
 		<div class="container-fluid">
 			<div class="typewriter">
 				<h2 id="typewriter"> Welcome to the page of: </h2>
 			</div>
-			<h1> Leon Hinderling </h1>
+			<h1> Leon Hinderling</h1>
 
 <!--			Timeline-->
 			<div class="timeline">
@@ -79,8 +78,8 @@
 <!--			Timeline end-->
 		</div>
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+<!--	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>-->
 	<script src="main.js"></script>
 	<script src="typed.js"></script>
 </body>
