@@ -2591,7 +2591,7 @@ figcaption {
 
 .wide-background {
   width: 100vw;
-  height: 100vh;
+  height: 47vw;
   background-color: #657580;
   margin-bottom: 0%;
 }
@@ -3435,9 +3435,9 @@ body {
 
 /* Styling */
 .timeline {
-  margin: 4em auto;
+  margin: 2em auto;
   position: relative;
-  max-width: 46em;
+  max-width: 60em;
   
   &:before {
     background-color: black;
